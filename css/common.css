@@ -1,0 +1,24 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.container{
+	background-color: ;
+}
+
+
+nav{
+	margin: 2%;
+}
+
+header li{
+	list-style: none;
+	display: inline-block;
+}
+
+header a{
+text-decoration: none;
+color: gray;
+margin: 30%;
+}

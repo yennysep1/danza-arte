@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+                                  /** ACÁ LOS ESTILOS DEL HEADER MENU **/
+nav{
+	margin: 2%;
+}
+
+header li{
+	list-style: none;
+	display: inline-block;
+}
+
+header a{
+	text-decoration: none;
+	color: gray;
+	margin: 30%;
+}
+														/** ACÁ LOS ESTILOS DE LA SECCCION BANNER **/
+.banner{
+	background-image: url(../img/dance_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 60vh;
+}
+
+.llamado {
+	margin-top: 12%;
+	color: #fff;
+}
+
+.llamado h1 {
+	font-size: 3em;
+	padding: 
+}
+.llamado a {
+	text-decoration: none;
+    color: #fff;
+    padding: 5% 19%;
+    background-color: #091226;
+    border-radius: 3%;
+}
+
+.banner p{
+	padding:5% 0 13% 0;
+}
+																/** ACÁ LOS ESTILOS DE LA SECCCION JULIART **/
+.juliart {
+	background-image: url(../img/textura_2.jpg);
+	background-repeat: repeat;
+	padding: 5%;
+}
+
+.juliart p{
+	font-size: 1.2em;
+}
+
+.juliart img {
+	margin: -2% 0 2% 0;
+    width: 10%;
+}
+
+.juliart a{
+	padding: 2% 8%;
+    background-color: #192951;
+    color: #fff;
+    border-radius: 2%;
+    text-decoration: none;
+}
+													/** ACÁ LOS ESTILOS DE LA SECCCION INSTRUCTORES **/
+.instructores {
+	position: relative;
+}
+
+.profe1 {
+	background-image: url(../img/instructor_4.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 50vh;
+	border: 1px solid #1d3775;
+}
+
+ .profe2 {
+	background-image: url(../img/profesor_9.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 50vh;
+	border: 1px solid #1d3775;
+}
+
+.docentes {
+	margin-top: -5% ;
+}
+
+.docentes p{
+	background-color: #1d3775;
+	color: #fff;
+	padding: 5.9%;
+}
+													/** ACÁ LOS ESTILOS DE LA SECCCION DANZA **/
+.danza {
+	background-image: url(../img/textura_2.jpg);
+	height: 40vh;
+}
+
+.danza p{
+	font-size: 2em;
+	text-align: center;
+	padding: 13% 0;
+}
+														/** ACÁ LOS ESTILOS DE LA SECCCION UBICACION **/
+.ubicacion {
+	background-color: #1d3775;
+	color: #fff;
+	padding-top: 7%;
+	height: 50vh;
+}
+
+.ubicacion p{
+	font-size: 0.8em;
+}
+
+.direccion p{
+	padding-bottom: 4%;
+}
+
+.fono {
+	color: #688de2;
+}
+
+.mapa {
+	margin: 2%;
+}
+														/** ACÁ LOS ESTILOS DE LA SECCCION CONTACTO **/
+.contactenos{
+	background:url(../img/shoes_1.jpg);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:right; 
+	height: 50vh;
+}
+.form{
+	margin: 5% 0;
+	width: 100%;
+	
+}
+.form h1{
+	font-size: 2em;
+	color: #192951;
+}
+textarea, input{
+	width: 400px;
+	margin-top: 5%;
+}
+
+input{
+	padding: 1% 0;
+}
+
+textarea{
+	padding: 5% 0;
+}
+
+#btn-enviar {
+	background-color: #1d3775;
+	padding: 10px 0%;
+	margin-top: 3%;
+	color: #fff;
+	border: none;
+	border-radius: 2%;
+}
+												/** ACÁ LOS ESTILOS DEL FOOTER **/
+footer{
+	margin-top: 2%;
+	background-color: #1d3775;
+	color: #fff;
+	padding: 1% 2%;
+}
+
