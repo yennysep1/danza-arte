@@ -1,1 +1,40 @@
-/* Inserta tu codigo aqui */
+
+
+
+
+
+											/** ACA LOS ESTILOS DE LA SECCION BLOG**/
+
+.blog {
+	background-color: #E4E2E2;
+	padding-top: 5%;
+
+}
+
+.publicacion{
+background-color: #A2A2A6;
+margin: 5% auto;
+
+}
+
+.blog img{
+	width: 96%;
+    height: 38vh;
+}
+
+.post {
+	padding-top: 8%;
+}
+
+.post p{
+	padding-bottom: 3%;
+}
+
+.post a {
+	background-color: #192951;
+    padding: 1% 12%;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 2%;
+}
+

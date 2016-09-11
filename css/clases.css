@@ -1,1 +1,55 @@
-/* Inserta tu codigo aqui */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.ofertas{
+	background-color: #E4E2E2;
+	padding: 3% 0;
+}
+
+.ofertas h1 {
+	padding: 2%;
+}
+
+.clase{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+	background-position: center;
+	color: #fff;
+	margin: 1%;
+	padding-top: 11%;
+}
+
+.ballet {
+	background-image: url(../img/dance_12.jpg);
+}
+
+.modern {
+	background-image: url(../img/breakdance.jpg);
+}
+
+.jazz {
+	background-image: url(../img/lirical-jazz.jpg);
+}
+
+.arabe {
+	background-image: url(../img/arabe.jpg);
+}
+
+.kids {
+	background-image: url(../img/little.jpg);
+}
+
+.yoga{
+	background-image: url(../img/yoga.jpg);
+}
+
+ .ofertas p {
+	background-color: rgba(51,51,51,0.9);
+	padding:2%;
+}
+
+
+

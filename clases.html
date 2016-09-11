@@ -4,12 +4,99 @@
 	<meta charset="UTF-8">
 	<title>Escuela de Danza</title>
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" type="text/css" href="css/flexboxgrid.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/clases.css">
 </head>
 <body>
-	<!-- Inserta tu código aqui -->
+<!-- -------------------------------------------ACA COMIENZA EL HEADER-->
+	<header>											
+		<div class="container">
+			<div class="row  center-xs">
+				<div class="col-xs-12">
+					<h1>ESCUELA DE DANZA</h1>
+				</div>	
+			</div>
+			<div class="row center-xs">
+				<div class="col-xs-12">
+					<nav>
+						<ul>
+							<li><a href="nosotros.html">Nosotros</a></li>
+							<li><a href="clases.html">Clases</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="#">Contáctanos</a></li>
+						</ul>
+					</nav>
+				</div>	
+			</div>
+		</div>
+	</header>
+	<!-- -----------------------------------------------ACA COMIENZA SECCION OFERTAS -->
+	<section class="ofertas">
+		<div class="container">
+			<div class="row center-xs">
+				<div class="col-xs-12">
+					<h1>OFERTA DE CLASES</h1>
+				</div>
+			</div>
+			<div class="row center-xs">
+				<div class="col-xs-3 clase ballet">
+					<p>BALLET</p>
+					<p>El ballet es la base de casi todos los estilos de baile</p>
+				</div>
+				<div class="col-xs-3 clase modern">
+					<p>BALLET</p>
+					<p>El ballet es la base de casi todos los estilos de baile</p>	
+				</div>
+				<div class="col-xs-3 clase jazz">
+					<p>BALLET</p>
+					<p>El ballet es la base de casi todos los estilos de baile</p>	
+				</div>
+			</div>
+			<div class="row center-xs">
+				<div class="col-xs-3 clase arabe">
+					<p>BALLET</p>
+					<p>El ballet es la base de casi todos los estilos de baile</p>	
+				</div>
+				<div class="col-xs-3 clase clase kids">
+					<p>BALLET</p>
+					<p>El ballet es la base de casi todos los estilos de baile</p>	
+				</div>
+				<div class="col-xs-3 clase yoga">
+					<p>BALLET</p>
+					<p>El ballet es la base de casi todos los estilos de baile</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ---------------------------------------------------------ACA COMIENZA SECCION CONTACTO-->
+	<section class="contacto">									
+		<div class="container">
+			<div class="row contactenos col-xs-offset-2">
+				<div class="col-xs-6 form">
+					<h1>Contáctanos</h1>
+					<form class="campos">
+						<p><input name="name" type="text"  placeholder="Nombre" id="nombre"/></p>
+						
+						<p><input name="email" type="text"  placeholder="Email"/></p>
+						
+						<p><textarea name="text" placeholder="Mensaje"></textarea></p>
+						
+						<input type="submit" value="ENVIAR" id="btn-enviar"/>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ------------------------------------------------------------ACA COMIENZA FOOTER-->
+	<footer>        												
+		<div class="row start-xs">
+			<div class="col-xs-12">
+			<p>Escuela de danza. Todos los derechos reservados.</p>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>

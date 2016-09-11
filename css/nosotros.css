@@ -1,23 +1,4 @@
-*{
-	margin: 0;
-	padding: 0;
-}
 
-							/** ACÁ LOS ESTILOS DEL HEADER MENU **/
-nav{
-	margin: 2%;
-}
-
-header li{
-	list-style: none;
-	display: inline-block;
-}
-
-header a{
-	text-decoration: none;
-	color: gray;
-	margin: 30%;
-}
 													/** ACÁ LOS ESTILOS DE LA SECCCION BANNER **/
 .banner{
 	background-image: url(../img/dance_7.jpg);
@@ -45,23 +26,27 @@ header a{
 	height: 30vh;
 	padding-top: 5%;
 	color: gray;
+	text-align: center;
 }
 
 .pilar hr {
 	margin: 5%;
 }
 						/** ACÁ LOS ESTILOS DE LA SECCCION INSTRUCTORES **/
+
 .instructores {
-	padding: 5%;
+	margin-bottom: 6%;
 }
 
 .instructores h1{
 	padding: 5% 0;
+	text-align: center;
 }
 
 .instructores img {
 	margin: 2%;
 	width: 90%;
+	height: 30vh;
 
 }
 
@@ -71,6 +56,10 @@ header a{
 
 .instructores h3{
 	text-align: left;
+}
+
+.profes {
+	margin-top: 5%;
 }
 							/** ACÁ LOS ESTILOS DE LA SECCCION DANZA **/
 .danza {
@@ -82,54 +71,5 @@ header a{
 	font-size: 2em;
 	text-align: center;
 	padding: 13% 0;
-}
-							/** ACÁ LOS ESTILOS DE LA SECCION CONTACTO**/
-.contactenos{
-	background:url(../img/shoes_1.jpg);
-	background-size:contain;
-	background-repeat:no-repeat;
-	background-position:right; 
-	height: 50vh;
-}
-
-.form{
-	margin: 5% 0;
-	width: 100%;
-	
-}
-
-.form h1{
-	font-size: 2em;
-	color: #192951;
-}
-
-textarea, input{
-	width: 400px;
-	margin-top: 5%;
-}
-
-input{
-	padding: 1% 0;
-}
-
-textarea{
-	padding: 5% 0;
-}
-
-#btn-enviar {
-	background-color: #1d3775;
-	padding: 10px 0%;
-	margin-top: 3%;
-	color: #fff;
-	border: none;
-	border-radius: 2%;
-}
-									/** ACÁ LOS ESTILOS DEL FOOTER **/
-footer{
-	margin-top: 2%;
-	background-color: #1d3775;
-	color: #fff;
-	padding: 1% 2%;
-	
 
 }
